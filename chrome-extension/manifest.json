@@ -1,0 +1,23 @@
+{
+  "name": "MPTube",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Open YouTube videos in MPV player.",
+  "homepage_url": "https://github.com/kalterfad/MPTube",
+  "browser_action"    : {
+    "default_title"   : "Open in MPV player",
+    "default_icon"    : "mpv-logo.png"
+  },
+  "permissions": [
+    "clipboardRead",
+    "activeTab",
+    "http://localhost:9086/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "128": "mpv-logo.png"
+  }
+}
