@@ -1,0 +1,12 @@
+[Unit]
+Description=MPTube service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/mptube
+Restart=always
+User=lonqu
+EnvironmentFile=/home/lonqu/GolandProjects/MPTube/env.txt
+
+[Install]
+WantedBy=multi-user.target
