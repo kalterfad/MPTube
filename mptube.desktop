@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MPTube
+Comment=Watching YouTube videos in MPV
+Icon=/usr/share/icons/MPTube/icon.svg
+Exec=/usr/local/bin/mptube
+Terminal=false
+Categories=Utility;Application;
